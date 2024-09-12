@@ -433,7 +433,7 @@ local function ki()
 end
 
 function rebirth()
-	
+	  game:GetService("ReplicatedStorage").Package.Events.reb:InvokeServer()
 end
 
 function ejecutarForma()
