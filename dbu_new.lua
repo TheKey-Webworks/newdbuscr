@@ -338,7 +338,7 @@ local transformaciones = {
 	},
 	fases = {
 		{name = "Blanco",fuerza = 120000000},
-		{name = "Beast",fuerza = 180000000000000000000},
+		{name = "Beast",fuerza = 120000000},
 		{name = "SSJBUI",fuerza = 120000000},
 		{name = "Ultra Ego",fuerza =  120000000},
 		{name = "SSJB4",fuerza =50000000},
