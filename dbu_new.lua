@@ -478,6 +478,24 @@ function iniciarJuego()
 		game:GetService("ReplicatedStorage").Package.Events.equipskill:InvokeServer("Mystic")
 		game:GetService("ReplicatedStorage").Package.Events.ta:InvokeServer()
 	end
+
+	player.CharacterAdded:Connect(function(c)
+			print("adding the hability of stack")
+		c:WaitForChild("Humanoid")
+		c.Humanoid.Died:Connect(function()
+
+					print("Stacking")
+					if data.Strength.Value>=8000000 then
+		wait(5)
+		game:GetService("ReplicatedStorage").Package.Events.equipskill:InvokeServer("Godly SSJ2")
+		game:GetService("ReplicatedStorage").Package.Events.ta:InvokeServer()
+	else
+		wait(4.95)
+		game:GetService("ReplicatedStorage").Package.Events.equipskill:InvokeServer("Mystic")
+		game:GetService("ReplicatedStorage").Package.Events.ta:InvokeServer()
+	end
+		end)
+	end)
 	task.wait()
 end
 
