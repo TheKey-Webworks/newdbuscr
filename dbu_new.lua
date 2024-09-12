@@ -218,11 +218,11 @@ function iniciarJuego()
 
 					print("Stacking")
 					if data.Strength.Value>=8000000 then
-		wait(5)
+		wait(4.5)
 		game:GetService("ReplicatedStorage").Package.Events.equipskill:InvokeServer("Godly SSJ2")
 		game:GetService("ReplicatedStorage").Package.Events.ta:InvokeServer()
 	else
-		wait(4.95)
+		wait(4.5)
 		game:GetService("ReplicatedStorage").Package.Events.equipskill:InvokeServer("Mystic")
 		game:GetService("ReplicatedStorage").Package.Events.ta:InvokeServer()
 	end
