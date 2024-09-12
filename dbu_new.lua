@@ -271,7 +271,7 @@ SaveManager:LoadAutoloadConfig()
 local yo = game:GetService('Players').LocalPlayer
 local folderData = game.ReplicatedStorage.Datas[yo.UserId]
 local afk = game:service'VirtualUser'
-local statsRequeridosFarm = 10000
+local statsRequeridosFarm = 500
 local events = game.ReplicatedStorage.Package.Events
 local equipRemote = game:GetService("ReplicatedStorage").Package.Events.equipskill 
 local cargaAndBloqueo = true
