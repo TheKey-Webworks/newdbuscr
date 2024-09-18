@@ -766,7 +766,7 @@ local function autoquest(boolean)
 			end
 	end
 
-	if checkValue >= 150000000 and game.placeId ~= 5151400895  then
+	if checkValue >= 250000000 and game.placeId ~= 5151400895  then
 		for indice, v in ipairs(game:GetService("Workspace").Living:GetChildren()) do
 			delay(0.5,mundoDeBills)
 			if v.Humanoid.Health>0 and v.Name == "SSJG Kakata" then
