@@ -292,9 +292,7 @@ wait(7)
 local textoStats = script.Parent.faseName
 -- Funciones
 local function mundoDeBills()
-		if checkValue < 250000000 then return
 	game:GetService("ReplicatedStorage").Package.Events.TP:InvokeServer("Vills Planet")
-		end
 end
 local function statsAltos()
 	textoStats.Text = "Subiendo manualmente"
