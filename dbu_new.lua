@@ -697,7 +697,7 @@ local function autoquest(boolean)
 					SelectedMobs = SelectedQuests
 					return
 				end
-			elseif minimo >=250000000 and minimo < 550000000 then
+			elseif minimo >=150000000 and minimo < 550000000 then
 				if v.Humanoid.Health >0 and v.Name == "Vegetable (GoD in-training)" then
 					textoEnemigo.Text = v.name
 					SelectedQuests = v.name
